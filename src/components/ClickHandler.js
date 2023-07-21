@@ -5,7 +5,7 @@ export const ClickHandler = () => {
   return (
     <div>
       <button onClick={clickHandler}>Click</button>
-      <button onClick={(event) => clickHandler(event, 5)}>Click 5</button>
+      <button onClick={(event) => clickHandler(event, 5)}>Click 51</button>
     </div>
   );
 };
